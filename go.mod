@@ -1,6 +1,6 @@
 module github.com/MooveSys/gosrt
 
-go 1.21.0
+go 1.22.0
 
 require (
 	github.com/benburkert/openpgp v0.0.0-20160410205803-c2471f86866c
