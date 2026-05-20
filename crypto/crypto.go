@@ -4,7 +4,7 @@ package crypto
 import (
 	"crypto/aes"
 	"crypto/cipher"
-	"crypto/pbkdf2"
+	"golang.org/x/crypto/pbkdf2"
 	"crypto/sha1"
 	"encoding/binary"
 	"errors"
