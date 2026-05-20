@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	srt "github.com/datarhei/gosrt"
+	srt "github.com/MooveSys/gosrt"
 	"github.com/pkg/profile"
 )
 

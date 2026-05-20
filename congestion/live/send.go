@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/datarhei/gosrt/circular"
-	"github.com/datarhei/gosrt/congestion"
-	"github.com/datarhei/gosrt/packet"
+	"github.com/MooveSys/gosrt/circular"
+	"github.com/MooveSys/gosrt/congestion"
+	"github.com/MooveSys/gosrt/packet"
 )
 
 // SendConfig is the configuration for the liveSend congestion control

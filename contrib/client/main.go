@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	srt "github.com/datarhei/gosrt"
+	srt "github.com/MooveSys/gosrt"
 )
 
 type stats struct {

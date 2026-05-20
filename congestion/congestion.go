@@ -2,8 +2,8 @@
 package congestion
 
 import (
-	"github.com/datarhei/gosrt/circular"
-	"github.com/datarhei/gosrt/packet"
+	"github.com/MooveSys/gosrt/circular"
+	"github.com/MooveSys/gosrt/packet"
 )
 
 // Sender is the sending part of the congestion control

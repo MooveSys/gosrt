@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	srtnet "github.com/datarhei/gosrt/net"
-	"github.com/datarhei/gosrt/packet"
+	srtnet "github.com/MooveSys/gosrt/net"
+	"github.com/MooveSys/gosrt/packet"
 )
 
 // ConnType represents the kind of connection as returned

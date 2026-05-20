@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/datarhei/gosrt/circular"
-	"github.com/datarhei/gosrt/packet"
+	"github.com/MooveSys/gosrt/circular"
+	"github.com/MooveSys/gosrt/packet"
 
 	"github.com/stretchr/testify/require"
 )

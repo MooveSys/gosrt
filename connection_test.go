@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/datarhei/gosrt/packet"
+	"github.com/MooveSys/gosrt/packet"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -147,7 +147,7 @@ func TestEncryption(t *testing.T) {
 	require.Equal(t, message, reader1)
 }
 
-// Test for https://github.com/datarhei/gosrt/pull/94
+// Test for https://github.com/MooveSys/gosrt/pull/94
 func TestEncryptionRetransmit(t *testing.T) {
 	message := "Hello World!"
 	passphrase := "foobarfoobar"

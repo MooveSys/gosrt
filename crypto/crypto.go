@@ -10,8 +10,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/datarhei/gosrt/packet"
-	"github.com/datarhei/gosrt/rand"
+	"github.com/MooveSys/gosrt/packet"
+	"github.com/MooveSys/gosrt/rand"
 
 	"github.com/benburkert/openpgp/aes/keywrap"
 )

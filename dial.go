@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/datarhei/gosrt/circular"
-	"github.com/datarhei/gosrt/crypto"
-	"github.com/datarhei/gosrt/packet"
-	"github.com/datarhei/gosrt/rand"
+	"github.com/MooveSys/gosrt/circular"
+	"github.com/MooveSys/gosrt/crypto"
+	"github.com/MooveSys/gosrt/packet"
+	"github.com/MooveSys/gosrt/rand"
 )
 
 // ErrClientClosed is returned when the client connection has

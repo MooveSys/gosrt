@@ -5,9 +5,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/datarhei/gosrt/crypto"
-	"github.com/datarhei/gosrt/packet"
-	"github.com/datarhei/gosrt/rand"
+	"github.com/MooveSys/gosrt/crypto"
+	"github.com/MooveSys/gosrt/packet"
+	"github.com/MooveSys/gosrt/rand"
 )
 
 // ConnRequest is an incoming connection request
