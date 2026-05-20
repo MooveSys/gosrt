@@ -276,7 +276,7 @@ func (c *crypto) EncryptOrDecryptPayload(data []byte, key packet.PacketEncryptio
 // calculateKEK calculates a KEK based on the passphrase.
 func (c *crypto) calculateKEK(passphrase string, salt []byte, keyLength int) ([]byte, error) {
 	// 6.1.4.  Key Encrypting Key (KEK)
-	return pbkdf2.Key(sha1.New, passphrase, salt[8:], 2048, keyLength)
+	return pbkdf2.Key([]byte(passphrase), salt[8:], 2048, keyLength, sha1.New), nil
 }
 
 // prng generates a random sequence of byte into the given slice p.
